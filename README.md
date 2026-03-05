@@ -1,110 +1,65 @@
-## README
+# Tesla Gallery
 
-## Component Classification
+Tesla-inspired gallery landing page built with React, Framer Motion and Swiper.
 
-### Component Groups
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat&logo=framer&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white)
 
-- **Smart**
-- **Ordinary**
-- **Simple**
-- **UI Components** (UI)
-- **Containers** (Containers)
-- **Pages**
+## About
 
-The first four groups of components (Smart, Ordinary, Simple and UI) are stored in the `Components` folder.
+Tesla Gallery is a Tesla-inspired landing page with animated gallery sections and smooth transitions. Features Swiper carousel with custom controls, Framer Motion animations and a fully responsive layout.
 
-### Description of groups
+🔗 **Live:** [tesla-gallery](https://tesla-gallery.vercel.app/)
 
-#### UI components
+## Pages
 
-Components that replace native UI elements such as: `button`, `input`, `textarea`, `select`, etc.
+| Page | Description |
+|---|---|
+| **Home** | Tesla-inspired gallery landing page |
+| **404** | Not found page |
 
-- **Limitations**:
-  - Cannot use local storage.
-  - Cannot access global state.
+## Features
 
-#### Simple components (Simple)
+- **Gallery slider** — Swiper carousel with switchable slides
+- **Framer Motion** — smooth page and section animations
+- **Responsive** — mobile adaptation for all screen sizes
+- **Styled Components + SCSS** — component and utility styling
+- **Lazy loading** — pages loaded with React lazy + Suspense
+- **Component architecture** — strict UI / Simple / Ordinary / Smart / Container / Page classification
 
-Components that contain no logic and only render the interface.
+## Tech Stack
 
-- **Limitations**:
+| Technology | Purpose |
+|---|---|
+| React | UI framework |
+| TypeScript | Type safety |
+| Vite | Build tool |
+| Framer Motion | Animations |
+| Swiper | Gallery carousel |
+| Styled Components | Component styling |
+| SCSS | Utility styling |
+| React Router | Routing |
+| ESLint / Stylelint | Code quality |
+| Prettier | Code formatting |
 
-  - Cannot use local storage.
-  - Cannot access global state.
-  - Cannot use hooks except for React's built-in hooks (except `useState`).
+## Getting Started
 
-- **Features**:
-  - Can use UI components in their implementation.
+```bash
+# Install dependencies
+npm install
 
-#### Ordinary components (Ordinary)
+# Start development server
+npm run dev
 
-Components that can include simple logic to display information.
+# Build for production
+npm run build
+```
 
-- **Limitations**:
+## Contributors
 
-  - Cannot use local storage.
-  - Cannot access global state.
-  - Cannot use hooks other than built-in React hooks (exception is `useState`).
+**Ihor Yanchuk** and **Kyrylo Savytskyi**
 
-- **Features**:
-  - Can use Simple and UI components in their implementation.
-
-#### Smart components (Smart)
-
-Components that can include more complex logic to display data.
-
-- **Limitations**:
-
-  - Can access local storage and global state (without modifying the latter).
-  - May use all available hooks except those that interact with the network.
-
-- **Features**:
-  - Can use Ordinary, Simple and UI components in their implementation.
-
-### Containers and pages
-
-#### Containers
-
-Containers are components that create the structure used to form pages. Containers can contain components from all of the above groups and interact with services or the network.
-
-#### Pages
-
-Pages are formed from containers and components from the `Components` folder. They, as well as containers, can interact with services and the network as needed.
-
-## Core
-
-The `Core` folder is the “core” of the application, containing everything needed to interact with the server, manage global state, the application theme, etc. This folder contains all the basic elements that provide the operation and structure of the application.
-
-Translated with DeepL.com (free version)
-
-### Core folder structure
-
-- **Config**  
-  Contains configuration files of the application. Here you can place data for interaction with the backend and customization of the application.
-
-- **Constants**  
-  This contains all constants used in the application, such as error and warning messages.
-
-- **Hooks**  
-  This folder contains custom hooks created for the specific needs of the application.
-
-- **Models**  
-  This folder holds data models that come from the backend.
-
-- **Schemes**  
-  Contains schemas for forms, tables, and other structures needed for the application.
-
-- **Services**  
-  Services responsible for interaction with the backend are stored here. Each service is a separate module for sending requests and processing responses.
-
-- **Store**  
-  This folder contains schemes of the global store. If MobX is used, this is where the storages are located, and for Redux - actions, redusers, etc.
-
-- **Theme**  
-  This folder holds the application themes if the `styled-components` library is used.
-
-- **Types**  
-  Contains auxiliary types and module declarations used to type components and data.
-
-- **Utils**  
-  Contains auxiliary functions that can be applied to hooks or components.
+[Vergos1](https://github.com/Vergos1) · [KILL0real](https://github.com/KILL0real)
