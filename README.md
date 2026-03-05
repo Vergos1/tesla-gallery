@@ -10,7 +10,7 @@ Tesla-inspired gallery landing page built with React, Framer Motion and Swiper.
 
 ## About
 
-Tesla Gallery is a Tesla-inspired landing with animated gallery sections and smooth transitions. Features Swiper carousel with custom controls, Framer Motion animations and a fully responsive layout.
+Tesla Gallery is a Tesla-inspired landing page with animated gallery sections and smooth transitions. Features Swiper carousel with custom controls, Framer Motion animations and a fully responsive layout.
 
 🔗 **Live:** [tesla-gallery](https://tesla-gallery.vercel.app/)
 
