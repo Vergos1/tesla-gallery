@@ -60,6 +60,6 @@ npm run build
 
 ## Contributors
 
-**Ihor Yanchuk** and **Kyrylo Savytskyi**
+Developed by **Ihor Yanchuk** and **Kyrylo Savytskyi**
 
 [Vergos1](https://github.com/Vergos1) · [KILL0real](https://github.com/KILL0real)
